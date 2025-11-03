@@ -1021,3 +1021,4 @@ include device/google/gs-common/touch/twoshay/twoshay.mk
 # since it can't be overridden from /vendor.
 PRODUCT_PRODUCT_PROPERTIES += \
 	dumpstate.strict_run=false
+$(call inherit-product, vendor/lindroid/lindroid.mk)
